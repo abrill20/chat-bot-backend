@@ -1,0 +1,7 @@
+node_modules
+# Keep environment variables out of version control
+.env
+/docker-data
+.DS_Store
+/dist
+/prisma/dev.db

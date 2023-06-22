@@ -26,7 +26,13 @@ model Chat {
   user      User      @relation(fields: [userId], references: [id])
   userId    Int
   createdAt DateTime  @default(now())
-  Message   Message[]
+  Message   Message[] 
+}
+
+// message type enum
+enum MessageType {
+  SENT
+  RECEIVED
 }
 
 model Message {
@@ -34,7 +40,8 @@ model Message {
   content     String?
   correction  String?
   createdAt   DateTime @default(now())
-  chat        Chat     @relation(fields: [chatId], references: [id])
+  type        String?
+  chat        Chat     @relation(fields: [chatId], references: [id], onDelete: Cascade)
   chatId      Int
   author      User     @relation(fields: [authorId], references: [id])
   authorId    Int

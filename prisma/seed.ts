@@ -1,68 +1,56 @@
-import {db} from "../src/utils/db.server";
-import {Chat, Message, User} from "../src/lib/types";
+// seed database with sample data
 
-async function seed() {
-  await Promise.all(
-    users.map(user => {
-      db.user.create({
-        data: {
-          name: user.username,
-          email: user.email,
-          password: user.password
-        }
-      })
-    })
-  );
+import { db } from '../src/utils/db.server';
+import { users, chats, messages } from './seedData';
+
+async function main() {
+  console.log('Seeding database...');
+  // seed users
+  for (const user of users) {
+    await db.user.upsert({
+      where: {
+        email: user.email
+      },
+      update: {},
+      create: {
+        name: user.name,
+        email: user.email,
+        password: user.password
+      }
+    });
+  }
+
+  const allUsers = await db.user.findMany();
+  console.log(users);
   
-  const user = await db.user.findFirst({
-    where: {
-      email: "JohnDoe@example.com"
-    }
-  });
-
-  if(user) {
-  await Promise.all(
-
-    chats.map(chat => {
-      db.chat.create({
-        data: {
-          title: chat.title,
-          userId: user.id
-        }
-      })
-    })
-  );
+  // seed chats
+  for (const chat of chats) {
+    await db.chat.create({
+      data: {
+        title: chat.title,
+        userId: allUsers[0].id
+      }
+    });
   }
 
+  const allChats = await db.chat.findMany();
+  console.log(chats);
+
+  // seed messages
+  for (const message of messages) {
+    await db.message.create({
+      data: {
+        content: message.content,
+        authorId: allUsers[0].id,
+        chatId: allChats[0].id
+      }
+    });
+  }
+
+  const allMessages = await db.message.findMany();
+  console.log(messages);
+  
+  console.log('Database seeded!');
 }
-const users: User[] = [
-  {
-    username: "John",
-    email: "JohnDoe@example.com",
-    password: "password"
-  },
-  {
-    username: "Jane",
-    email: "JohnDoe@example.com",
-    password: "password"
-  },
-  {
-    username: "Bob",
-    email: "BobDoe@example.com",
-    password: "password"
-  }
-]
 
-const chats: Chat[] = [
-  {
-    title: "Chat 1",
-    userId: 1
-  },
-  {
-    title: "Chat 2",
-    userId: 2
-  },
-  {
-    title: "Chat 3",
-    userId: 3
-  }]
+main()

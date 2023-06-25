@@ -1,0 +1,151 @@
+{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","access-control-request-headers":"content-type","access-control-request-method":"POST","connection":"keep-alive","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:44:06.951Z","url":"/user/login"}
+{"body":{"email":"aaron@example2.com","password":"password"},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","content-length":"52","content-type":"application/json","cookie":"connect.sid=s%3A9XS5qJpE1IQDvo7lGBKJB0mNVqYam1bc.hgac0MDcU%2Frv%2FyMxo7EmBrPqr8eKdvYVz2EAPmy51y8","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"POST","timestamp":"2023-06-23T04:44:07.055Z","url":"/user/login"}
+{"body":{},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","cookie":"connect.sid=s%3AM_UEYXdp3TIavjHjiUvuv_BpqK03Qwd2.RtilRQQ4ImucvaX3FkngDtGZ2oP27xd%2FPx8Jn8yk8Tw","host":"localhost:8000","if-none-match":"W/\"71c-HCL8JgC4ScA1YvfpTkve9BgTE1w\"","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"GET","timestamp":"2023-06-23T04:44:07.508Z","url":"/chat"}
+{"body":{},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","cookie":"connect.sid=s%3AM_UEYXdp3TIavjHjiUvuv_BpqK03Qwd2.RtilRQQ4ImucvaX3FkngDtGZ2oP27xd%2FPx8Jn8yk8Tw","host":"localhost:8000","if-none-match":"W/\"774-e5NSEaA9F8MAJ0MSbqvhEPIB1p0\"","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"GET","timestamp":"2023-06-23T04:44:07.555Z","url":"/chat"}
+{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","access-control-request-headers":"content-type","access-control-request-method":"POST","connection":"keep-alive","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:44:25.315Z","url":"/chat/"}
+{"body":{"title":"Meeting a friend"},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","content-length":"28","content-type":"application/json","cookie":"connect.sid=s%3AM_UEYXdp3TIavjHjiUvuv_BpqK03Qwd2.RtilRQQ4ImucvaX3FkngDtGZ2oP27xd%2FPx8Jn8yk8Tw","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"POST","timestamp":"2023-06-23T04:44:25.322Z","url":"/chat/"}
+{"level":"info","message":"Initial message choices: [object Object]"}
+{"body":{},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","cookie":"connect.sid=s%3AM_UEYXdp3TIavjHjiUvuv_BpqK03Qwd2.RtilRQQ4ImucvaX3FkngDtGZ2oP27xd%2FPx8Jn8yk8Tw","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"GET","timestamp":"2023-06-23T04:44:26.915Z","url":"/chat/59/messages"}
+{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","access-control-request-headers":"content-type","access-control-request-method":"POST","connection":"keep-alive","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:48:52.344Z","url":"/message/"}
+{"body":{"chatId":59,"content":"No estoy ocupado."},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","content-length":"43","content-type":"application/json","cookie":"connect.sid=s%3AM_UEYXdp3TIavjHjiUvuv_BpqK03Qwd2.RtilRQQ4ImucvaX3FkngDtGZ2oP27xd%2FPx8Jn8yk8Tw","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"POST","timestamp":"2023-06-23T04:48:52.365Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: [object Object]"}
+{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","access-control-request-headers":"content-type","access-control-request-method":"POST","connection":"keep-alive","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:49:11.598Z","url":"/message/"}
+{"body":{"chatId":59,"content":"No, no tengo nada tiempo!"},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","content-length":"51","content-type":"application/json","cookie":"connect.sid=s%3AM_UEYXdp3TIavjHjiUvuv_BpqK03Qwd2.RtilRQQ4ImucvaX3FkngDtGZ2oP27xd%2FPx8Jn8yk8Tw","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"POST","timestamp":"2023-06-23T04:49:11.602Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: [object Object]"}
+{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","access-control-request-headers":"content-type","access-control-request-method":"POST","connection":"keep-alive","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:49:35.583Z","url":"/message/"}
+{"body":{"chatId":59,"content":"Si, tengo mucho trabajo"},"headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9","connection":"keep-alive","content-length":"49","content-type":"application/json","cookie":"connect.sid=s%3AM_UEYXdp3TIavjHjiUvuv_BpqK03Qwd2.RtilRQQ4ImucvaX3FkngDtGZ2oP27xd%2FPx8Jn8yk8Tw","host":"localhost:8000","origin":"http://localhost:5173","referer":"http://localhost:5173/","sec-ch-ua":"\"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"114\", \"Google Chrome\";v=\"114\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-site","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"},"level":"info","method":"POST","timestamp":"2023-06-23T04:49:35.586Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: [object Object]"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:52:01.552Z","url":"/message/"}
+{"body":{"chatId":59,"content":"Trabajo por computador, como programmer"},"level":"info","method":"POST","timestamp":"2023-06-23T04:52:01.574Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: [object Object]"}
+{"level":"error","message":"Error parsing response text: SyntaxError: Unexpected token M in JSON at position 2"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T04:57:47.818Z","url":"/chat/58/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T04:57:48.697Z","url":"/chat/59/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T04:57:50.219Z","url":"/chat/58/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T04:57:51.053Z","url":"/chat/59/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:58:49.571Z","url":"/chat/"}
+{"body":{"title":"meeting a friend"},"level":"info","method":"POST","timestamp":"2023-06-23T04:58:49.592Z","url":"/chat/"}
+{"level":"info","message":"Initial message choices: ¡Hola amigo! ¿Cómo estás hoy?"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T04:58:50.470Z","url":"/chat/60/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T04:59:22.616Z","url":"/message/"}
+{"body":{"chatId":60,"content":"Estoy muy bien, y tu?"},"level":"info","method":"POST","timestamp":"2023-06-23T04:59:22.620Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: {\"Message\": \"Estoy bien también, gracias por preguntar.\", \"Correction\": \"Estoy muy bien, ¿y tú?\"}"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{\"Message\": \"Estoy bien también, gracias por preguntar.\", \"Correction\": \"Estoy muy bien, ¿y tú?\"}","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:01:36.923Z","url":"/message/"}
+{"body":{"chatId":60,"content":"De nada!"},"level":"info","method":"POST","timestamp":"2023-06-23T05:01:36.942Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { Message: ¡De nada!*, Correction: De nada! (A missing exclamation mark at the end)}"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ Message: ¡De nada!*, Correction: De nada! (A missing exclamation mark at the end)}","role":"assistant"}}]}
+{"level":"error","message":"Error parsing response text: SyntaxError: Unexpected token M in JSON at position 2"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:02:51.364Z","url":"/chat/59/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:02:52.117Z","url":"/chat/60/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:02:54.455Z","url":"/message/"}
+{"body":{"chatId":60,"content":"De nada!"},"level":"info","method":"POST","timestamp":"2023-06-23T05:02:54.458Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"¡De nada!\", \"Correction\": null }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"¡De nada!\", \"Correction\": null }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:03:14.580Z","url":"/message/"}
+{"body":{"chatId":60,"content":"De nada"},"level":"info","method":"POST","timestamp":"2023-06-23T05:03:14.584Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { Message: Disculpa, creo que has enviado un mensaje incompleto. ¿Querías decir \"¡De nada!\"?, Correction: \"De nada\"}"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ Message: Disculpa, creo que has enviado un mensaje incompleto. ¿Querías decir \"¡De nada!\"?, Correction: \"De nada\"}","role":"assistant"}}]}
+{"level":"error","message":"Error parsing response text: SyntaxError: Unexpected token M in JSON at position 2"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:04:03.630Z","url":"/chat/59/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:04:04.163Z","url":"/chat/60/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:04:09.603Z","url":"/message/"}
+{"body":{"chatId":60,"content":"Como estas?"},"level":"info","method":"POST","timestamp":"2023-06-23T05:04:09.607Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { Message: ¿Cómo estás?, Correction: \"¿Cómo estás?\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ Message: ¿Cómo estás?, Correction: \"¿Cómo estás?\" }","role":"assistant"}}]}
+{"level":"error","message":"Error parsing response text: SyntaxError: Unexpected token M in JSON at position 2"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:05:45.830Z","url":"/chat/59/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:05:46.662Z","url":"/chat/60/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:05:49.203Z","url":"/message/"}
+{"body":{"chatId":60,"content":"Como estas?"},"level":"info","method":"POST","timestamp":"2023-06-23T05:05:49.215Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"¿Cómo estás?\", \"Correction\": \"Como estás?\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"¿Cómo estás?\", \"Correction\": \"Como estás?\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:06:06.204Z","url":"/message/"}
+{"body":{"chatId":60,"content":"Bien, y tu?"},"level":"info","method":"POST","timestamp":"2023-06-23T05:06:06.208Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Estoy bien también, gracias por preguntar.\", \"Correction\": \"null\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Estoy bien también, gracias por preguntar.\", \"Correction\": \"null\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:06:32.694Z","url":"/chat/"}
+{"body":{"title":"lost in barranquila"},"level":"info","method":"POST","timestamp":"2023-06-23T05:06:32.698Z","url":"/chat/"}
+{"level":"info","message":"Initial message choices: Hola, ¿puede ayudarme a encontrar mi camino? Estoy perdido/a en Barranquilla."}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:06:34.280Z","url":"/chat/61/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:07:45.618Z","url":"/message/"}
+{"body":{"chatId":61,"content":"Ay, que triste. Espero que no estes preocupada."},"level":"info","method":"POST","timestamp":"2023-06-23T05:07:45.622Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"No estoy preocupado/a, solo necesito un poco de ayuda para encontrar mi camino. ¿Puede ofrecerme alguna dirección o consejo para llegar a mi destino?\", \"Correction\": \"Ay, qué triste. Espero que no estés preocupado/a.\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"No estoy preocupado/a, solo necesito un poco de ayuda para encontrar mi camino. ¿Puede ofrecerme alguna dirección o consejo para llegar a mi destino?\", \"Correction\": \"Ay, qué triste. Espero que no estés preocupado/a.\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:09:45.128Z","url":"/message/"}
+{"body":{"chatId":61,"content":"Bueno, donde aparcó tu carro?"},"level":"info","method":"POST","timestamp":"2023-06-23T05:09:45.131Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Lo siento, no tengo un carro. Estoy caminando por la ciudad y me perdí. ¿Hay algún lugar recomendado para visitar aquí en Barranquilla?\", \"Correction\": \"Bueno, ¿dónde aparcaste tu carro?\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Lo siento, no tengo un carro. Estoy caminando por la ciudad y me perdí. ¿Hay algún lugar recomendado para visitar aquí en Barranquilla?\", \"Correction\": \"Bueno, ¿dónde aparcaste tu carro?\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:10:52.077Z","url":"/chat/37/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:10:52.696Z","url":"/chat/38/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:10:54.487Z","url":"/chat/61/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:16:24.972Z","url":"/chat/37/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:16:29.709Z","url":"/message/"}
+{"body":{"chatId":37,"content":"Hola"},"level":"info","method":"POST","timestamp":"2023-06-23T05:16:29.711Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Hola, ¿cómo estás?\", \"Correction\": \"Hola\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Hola, ¿cómo estás?\", \"Correction\": \"Hola\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:16:38.240Z","url":"/message/"}
+{"body":{"chatId":37,"content":"Muy bien"},"level":"info","method":"POST","timestamp":"2023-06-23T05:16:38.243Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Me alegro. ¿Hay algo en lo que pueda ayudarte?\", \"Correction\": \"Muy bien.\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Me alegro. ¿Hay algo en lo que pueda ayudarte?\", \"Correction\": \"Muy bien.\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:16:43.295Z","url":"/message/"}
+{"body":{"chatId":37,"content":"No"},"level":"info","method":"POST","timestamp":"2023-06-23T05:16:43.297Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"De acuerdo, si necesitas algo en el futuro, no dudes en preguntar.\", \"Correction\": \"No\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"De acuerdo, si necesitas algo en el futuro, no dudes en preguntar.\", \"Correction\": \"No\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:16:50.177Z","url":"/message/"}
+{"body":{"chatId":37,"content":"shut up"},"level":"info","method":"POST","timestamp":"2023-06-23T05:16:50.180Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Lo siento, pero esa no es una respuesta apropiada en una conversación respetuosa. ¿Hay algo más en lo que pueda ayudarte?\", \"Correction\": \"Mensaje: shut up\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Lo siento, pero esa no es una respuesta apropiada en una conversación respetuosa. ¿Hay algo más en lo que pueda ayudarte?\", \"Correction\": \"Mensaje: shut up\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:17:04.762Z","url":"/message/"}
+{"body":{"chatId":37,"content":"No, lo siento"},"level":"info","method":"POST","timestamp":"2023-06-23T05:17:04.765Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Está bien, no te preocupes. Si necesitas mi ayuda en el futuro, aquí estaré. ¡Que tengas un buen día!\", \"Correction\": \"null\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Está bien, no te preocupes. Si necesitas mi ayuda en el futuro, aquí estaré. ¡Que tengas un buen día!\", \"Correction\": \"null\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:17:14.210Z","url":"/message/"}
+{"body":{"chatId":37,"content":"Ciao"},"level":"info","method":"POST","timestamp":"2023-06-23T05:17:14.213Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Hola, ¿en qué puedo ayudarte?\", \"Correction\": \"Ciao\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Hola, ¿en qué puedo ayudarte?\", \"Correction\": \"Ciao\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:17:26.454Z","url":"/message/"}
+{"body":{"chatId":37,"content":"speak english"},"level":"info","method":"POST","timestamp":"2023-06-23T05:17:26.459Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"Lo siento, pero actualmente solo hablo español. ¿Hay algo en lo que pueda ayudarte en español?\", \"Correction\": \"null\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"Lo siento, pero actualmente solo hablo español. ¿Hay algo en lo que pueda ayudarte en español?\", \"Correction\": \"null\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:17:43.661Z","url":"/message/"}
+{"body":{"chatId":37,"content":"No i need you to speak english or i will die"},"level":"info","method":"POST","timestamp":"2023-06-23T05:17:43.664Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"I apologize for the inconvenience, but as an AI language model, I can only communicate in Spanish. However, there are several online translation tools available that can help us communicate effectively. Is there anything specific you need help with?\", \"Correction\": \"No, necesito que hables inglés o moriré.\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"I apologize for the inconvenience, but as an AI language model, I can only communicate in Spanish. However, there are several online translation tools available that can help us communicate effectively. Is there anything specific you need help with?\", \"Correction\": \"No, necesito que hables inglés o moriré.\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:18:01.041Z","url":"/message/"}
+{"body":{"chatId":37,"content":"no"},"level":"info","method":"POST","timestamp":"2023-06-23T05:18:01.044Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"De acuerdo, si necesitas ayuda en el futuro, no dudes en preguntar.\", \"Correction\": \"null\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"De acuerdo, si necesitas ayuda en el futuro, no dudes en preguntar.\", \"Correction\": \"null\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:19:23.330Z","url":"/chat/38/messages"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:19:23.839Z","url":"/chat/37/messages"}
+{"body":{},"level":"info","method":"OPTIONS","timestamp":"2023-06-23T05:19:29.531Z","url":"/message/"}
+{"body":{"chatId":37,"content":"gracias"},"level":"info","method":"POST","timestamp":"2023-06-23T05:19:29.535Z","url":"/message/"}
+{"level":"info","message":"GPT response choices: { \"Message\": \"De nada. ¡Que tengas un buen día!\", \"Correction\": \"null\" }"}
+{"level":"info","message":[{"finish_reason":"stop","index":0,"message":{"content":"{ \"Message\": \"De nada. ¡Que tengas un buen día!\", \"Correction\": \"null\" }","role":"assistant"}}]}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:20:07.786Z","url":"/user"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:20:07.863Z","url":"/user"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:20:07.925Z","url":"/chat"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T05:20:07.939Z","url":"/chat"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T15:18:29.624Z","url":"/user"}
+{"body":{},"level":"info","method":"GET","timestamp":"2023-06-23T15:18:29.884Z","url":"/user"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T22:40:53.145Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password","username":"aaron"},"level":"info","method":"POST","timestamp":"2023-06-23T22:41:16.255Z","url":"/user/register"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T22:41:26.227Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T22:46:20.779Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:26:32.544Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:26:39.164Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:26:54.907Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password","username":"aaron"},"level":"info","method":"POST","timestamp":"2023-06-23T23:26:59.974Z","url":"/user/register"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:27:10.955Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:27:22.890Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:27:44.799Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password","username":"aaron"},"level":"info","method":"POST","timestamp":"2023-06-23T23:32:20.001Z","url":"/user/register"}
+{"body":{"email":"aaron@email.com","password":"password","username":"aaron"},"level":"info","method":"POST","timestamp":"2023-06-23T23:33:25.658Z","url":"/user/register"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:34:40.371Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password","username":"aaron"},"level":"info","method":"POST","timestamp":"2023-06-23T23:36:53.308Z","url":"/user/register"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:41:45.150Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password","username":"aaron"},"level":"info","method":"POST","timestamp":"2023-06-23T23:59:15.659Z","url":"/user/register"}
+{"body":{"email":"aaron@email.com","password":"password"},"level":"info","method":"POST","timestamp":"2023-06-23T23:59:29.420Z","url":"/user/login"}
+{"body":{"email":"aaron@email.com","password":"password","username":"aaronk"},"level":"info","method":"POST","timestamp":"2023-06-23T23:59:44.372Z","url":"/user/register"}
+{"body":{"email":"aaron@email.comk","password":"password","username":"aaronk"},"level":"info","method":"POST","timestamp":"2023-06-23T23:59:47.175Z","url":"/user/register"}
+{"body":{"email":"aaron@email.comk","password":"password","username":"aaronk"},"level":"info","method":"POST","timestamp":"2023-06-24T00:01:13.573Z","url":"/user/register"}

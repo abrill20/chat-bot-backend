@@ -4,7 +4,7 @@ import { Request, Response } from 'express';
 import { db } from '../utils/db.server';
 import { Chat } from '../lib/types';
 import { User } from '@prisma/client';
-import createChatBotMessage from '../ChatBot/ChatBot';
+import { getInitialMessageGPT } from '../ChatBot/ChatBot';
 
 export class ChatController {
   static getUserChats = async (req: Request, res: Response) => {
@@ -58,10 +58,11 @@ export class ChatController {
       }
     });
 
-    const gptResponseJSON = await createChatBotMessage(null, chat.id);
+    const gptResponseText = await getInitialMessageGPT(title);
+
     const response = await db.message.create({
       data: {
-        content: gptResponseJSON.response,
+        content: gptResponseText,
         chatId: chat.id,
         authorId: 1,
         type: "RECEIVED"

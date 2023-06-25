@@ -1,23 +1,16 @@
 // chat routes
-import express from 'express';
-import { ChatController } from '../controllers/chatController';
-import { User } from '.prisma/client';
+import express from "express";
+import { ChatController } from "../controllers/chatController";
+import { User } from "@prisma/client";
 
 export const chatRouter = express.Router();
 
+chatRouter.get("/:id", ChatController.getChatById);
 
+chatRouter.post("/", ChatController.createChat);
 
-chatRouter.get('/:id', ChatController.getChatById);
+chatRouter.get("/:id/messages", ChatController.getChatMessagesById);
 
-chatRouter.post('/', ChatController.createChat);
+chatRouter.delete("/:id", ChatController.deleteChat);
 
-chatRouter.get('/:id/messages', ChatController.getChatMessagesById);
-
-chatRouter.delete('/:id', ChatController.deleteChat);
-
-chatRouter.get('/', ChatController.getUserChats);
-
-
-
-
-
+chatRouter.get("/", ChatController.getUserChats);

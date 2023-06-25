@@ -1,5 +1,5 @@
 // import prisma user type
-import { User as PrismaUser } from '.prisma/client';
+import { User as PrismaUser } from '@prisma/client';
 import { Request } from 'express';
 
 // message types

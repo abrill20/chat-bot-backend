@@ -24,11 +24,13 @@ app.use(loggerMiddleware)
 
 // use cors
 // const whitelist: string = (process.env.NODE_ENV == "production" ? process.env.CLIENT_URL_PROD : process.env.CLIENT_URL_DEV) as string;
-const whitelist = ["http://localhost:5173", "http://localhost:4173", "https://zesty-profiterole-0c6338.netlify.app", "https://spanish-chat-bot.web.app"];
+const whitelist = ["http://localhost:5173", "http://localhost:4173", "https://www.hablando.app", "https://hablando.app"];
 app.use(cors({
   origin: whitelist,
   credentials: true
 }));
+
+
 
 app.enable("trust proxy");
 // set cache-control: private
